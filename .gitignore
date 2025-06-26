@@ -183,3 +183,6 @@ cython_debug/
 #models
 models
 models/prot_xlnet_generation_finetuned*
+
+# pfeature temporary files
+notebooks/input_sam.csv
