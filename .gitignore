@@ -188,3 +188,4 @@ models/prot_xlnet_generation_finetuned*
 notebooks/input_sam.csv
 notebooks/tempfile_out
 accelerated_drug_discovery.code-workspace
+notebooks/tempfile_out
