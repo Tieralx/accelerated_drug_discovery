@@ -189,3 +189,4 @@ notebooks/input_sam.csv
 notebooks/tempfile_out
 accelerated_drug_discovery.code-workspace
 notebooks/tempfile_out
+notebooks/compout_*
