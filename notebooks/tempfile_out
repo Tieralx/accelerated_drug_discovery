@@ -2708,3 +2708,7 @@ RRI_A,RRI_C,RRI_D,RRI_E,RRI_F,RRI_G,RRI_H,RRI_I,RRI_K,RRI_L,RRI_M,RRI_N,RRI_P,RR
 1.00,0.00,1.00,1.00,0.00,0.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00, 
 1.00,1.00,1.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,0.00,1.00,0.00,1.00,1.00,1.00,0.00, 
 1.00,1.00,1.00,0.00,1.00,1.00,1.00,0.00,1.00,0.00,0.00,1.00,1.00,0.00,0.00,2.00,1.00,1.00,1.00,1.00, 
+The process found 624 as positve and 2085 as negative out of a total of 2709 sequences, representing a 23.034330011074196% of positve sequences
+Processing sequences hemo feature
+Processing sequences sol feature
+Processing sequences nf feature
