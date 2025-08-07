@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.conda
 
 # Spyder project settings
 .spyderproject
@@ -190,3 +191,4 @@ notebooks/tempfile_out
 accelerated_drug_discovery.code-workspace
 notebooks/tempfile_out
 notebooks/compout_*
+references/vina_1.2.7_win.exe
