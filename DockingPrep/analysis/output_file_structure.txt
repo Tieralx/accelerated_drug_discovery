@@ -1,0 +1,42 @@
+DOCKING OUTPUT FILE STRUCTURE
+============================================================
+
+DockingPrep/
+├── ligands/
+│   ├── peptide_1.mol2
+│   ├── peptide_2.mol2
+│   ├── peptide_3.mol2
+│   ├── peptide_4.mol2
+│   ├── peptide_5.mol2
+│   ├── peptide_6.mol2
+│   ├── peptide_1.pdbqt
+│   ├── peptide_2.pdbqt
+│   ├── peptide_3.pdbqt
+│   ├── peptide_4.pdbqt
+│   ├── peptide_5.pdbqt
+│   ├── peptide_6.pdbqt
+├── receptor/
+│   └── 1VPF_receptor.pdbqt
+├── docking_results/
+│   ├── peptide_1_config.txt
+│   ├── peptide_1_docked.pdbqt
+│   ├── peptide_1_docking.log
+│   ├── peptide_2_config.txt
+│   ├── peptide_2_docked.pdbqt
+│   ├── peptide_2_docking.log
+│   ├── peptide_3_config.txt
+│   ├── peptide_3_docked.pdbqt
+│   ├── peptide_3_docking.log
+│   ├── peptide_4_config.txt
+│   ├── peptide_4_docked.pdbqt
+│   ├── peptide_4_docking.log
+│   ├── peptide_5_config.txt
+│   ├── peptide_5_docked.pdbqt
+│   ├── peptide_5_docking.log
+│   ├── peptide_6_config.txt
+│   ├── peptide_6_docked.pdbqt
+│   ├── peptide_6_docking.log
+└── analysis/
+    ├── docking_results_detailed.csv
+    ├── docking_summary_report.txt
+    ├── output_file_structure.txt

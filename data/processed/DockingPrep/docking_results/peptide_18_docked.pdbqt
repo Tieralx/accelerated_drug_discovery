@@ -1,0 +1,405 @@
+MODEL 1
+REMARK VINA RESULT:      -6.2      0.000      0.000
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1      18.354   5.314   9.128  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1      18.137   3.940   9.111  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      19.316   3.276   9.144  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1      20.273   4.220   9.170  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1      21.653   4.024   9.190  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1      22.480   5.163   9.194  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1      21.914   6.457   9.177  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1      20.518   6.625   9.155  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1      19.725   5.477   9.156  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      19.451   2.241   9.136  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1      17.306   6.387   9.029  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1      16.188   6.186  10.072  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1      14.990   6.946   9.710  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1      15.228   7.965   9.715  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1      14.249   6.797  10.433  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1      16.646   6.590  11.446  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1      17.319   7.644  11.611  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1      16.352   5.779  12.539  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1      15.460   5.853  13.014  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.2     46.084     47.403
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1      -9.492  -0.161  47.909  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1      -9.847   1.184  47.881  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      -8.744   1.964  47.945  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1      -7.698   1.123  48.025  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1      -6.349   1.459  48.129  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1      -5.415   0.411  48.221  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1      -5.846  -0.935  48.209  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1      -7.214  -1.244  48.105  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1      -8.115  -0.183  48.010  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      -8.716   3.008  47.948  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1     -10.431  -1.335  47.929  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1     -11.720  -1.045  47.134  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1     -12.899  -1.538  47.849  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1     -13.753  -1.272  47.306  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1     -12.966  -1.066  48.781  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1     -11.665  -1.661  45.764  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1     -11.645  -2.914  45.629  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1     -11.605  -0.842  44.640  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1     -10.858  -0.168  44.528  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.6      3.584      5.367
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1      20.737   5.659   8.831  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1      21.048   4.303   8.859  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      19.926   3.565   9.024  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1      18.913   4.445   9.112  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1      17.562   4.161   9.306  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1      16.667   5.244   9.389  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1      17.139   6.571   9.281  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1      18.508   6.828   9.087  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1      19.369   5.733   9.004  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      19.866   2.525   9.085  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1      21.711   6.800   8.738  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1      22.751   6.753   9.875  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1      22.769   8.012  10.622  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1      22.815   7.793  11.644  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1      21.875   8.530  10.457  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1      24.127   6.460   9.344  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1      24.332   5.442   8.630  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1      25.186   7.303   9.668  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1      25.223   7.769  10.567  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.4      3.101      5.479
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1      19.772   7.304   9.545  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1      19.630   8.530  10.188  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      18.361   8.687  10.630  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1      17.700   7.576  10.262  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1      16.354   7.282  10.479  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1      15.859   6.060   9.988  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1      16.711   5.170   9.296  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1      18.064   5.494   9.090  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1      18.526   6.710   9.593  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      17.974   9.512  11.140  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1      21.004   6.792   8.855  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1      21.823   5.861   9.772  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1      23.180   6.376   9.964  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1      23.847   5.757   9.447  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1      23.434   6.324  10.978  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1      21.885   4.466   9.216  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1      22.675   3.616   9.711  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1      21.089   4.119   8.129  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1      21.204   3.226   7.664  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.3     18.018     19.093
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1       8.522   7.995  25.218  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1       9.855   8.124  24.836  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      10.562   7.036  25.218  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1       9.691   6.228  25.846  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1       9.957   4.992  26.434  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1       8.892   4.319  27.061  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1       7.601   4.891  27.089  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1       7.362   6.141  26.489  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1       8.436   6.781  25.871  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      11.581   6.869  25.066  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1       7.437   9.019  25.042  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1       7.066   9.203  23.556  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1       7.026  10.622  23.198  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1       6.710  11.168  24.033  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1       6.316  10.773  22.444  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1       5.741   8.565  23.242  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1       4.777   9.265  22.833  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1       5.571   7.197  23.435  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1       5.683   6.546  22.666  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.2     46.285     47.471
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1      -8.623  -1.096  48.017  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1      -8.296  -2.445  48.115  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      -6.958  -2.598  48.246  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1      -6.438  -1.358  48.219  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1      -5.092  -1.004  48.302  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1      -4.766   0.363  48.232  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1      -5.781   1.333  48.081  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1      -7.130   0.947  47.999  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1      -7.423  -0.415  48.076  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      -6.438  -3.499  48.334  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1      -9.992  -0.520  47.789  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1     -10.918  -1.525  47.076  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1     -11.462  -0.953  45.842  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1     -12.478  -0.749  45.990  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1     -11.397  -1.658  45.071  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1     -12.045  -1.958  47.972  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1     -13.177  -1.410  47.884  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1     -11.829  -2.950  48.924  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1     -10.934  -3.421  48.989  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.2     21.592     23.038
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1       2.601  -0.195  24.211  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1       3.639   0.730  24.148  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1       4.835   0.103  24.234  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1       4.559  -1.206  24.363  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1       5.471  -2.252  24.505  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1       4.960  -3.556  24.645  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1       3.566  -3.782  24.643  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1       2.670  -2.707  24.500  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1       3.206  -1.428  24.357  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1       5.778   0.551  24.219  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1       1.129   0.109  24.221  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1       0.755   1.060  25.376  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1       0.133   0.326  26.480  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1       0.441   0.756  27.382  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1       0.474  -0.664  26.478  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1      -0.171   2.149  24.908  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1      -1.345   2.226  25.360  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1       0.262   3.057  23.947  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1       0.429   4.028  24.187  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.1      2.073      2.853
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1      19.543   6.348   9.355  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1      19.731   7.720   9.224  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1      21.041   8.001   9.032  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1      21.680   6.818   9.052  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1      23.049   6.595   8.914  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1      23.511   5.268   8.987  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1      22.604   4.206   9.197  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1      21.227   4.461   9.334  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1      20.800   5.786   9.252  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1      21.466   8.946   8.908  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1      18.248   5.646   9.652  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1      17.256   6.571  10.386  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1      16.786   5.956  11.629  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1      17.599   5.498  12.102  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1      16.094   5.203  11.407  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1      16.079   6.910   9.514  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1      15.030   6.212   9.558  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1      16.161   7.982   8.629  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1      15.343   8.541   8.414  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.0     21.441     23.296
+REMARK  Name = peptide_18_RTNHSRYEDR
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_13
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_13  and  OXT_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TRP A   1       4.625  -3.424  25.729  0.00  0.00    -0.020 A 
+ATOM      2  CD1 TRP A   1       3.671  -4.428  25.862  0.00  0.00    +0.087 A 
+ATOM      3  NE1 TRP A   1       3.701  -4.944  27.112  0.00  0.00    -0.360 N 
+ATOM      4  CE2 TRP A   1       4.673  -4.282  27.764  0.00  0.00    +0.047 A 
+ATOM      5  CZ2 TRP A   1       5.091  -4.475  29.080  0.00  0.00    +0.026 A 
+ATOM      6  CH2 TRP A   1       6.149  -3.680  29.558  0.00  0.00    +0.002 A 
+ATOM      7  CZ3 TRP A   1       6.759  -2.721  28.718  0.00  0.00    +0.001 A 
+ATOM      8  CE3 TRP A   1       6.317  -2.549  27.394  0.00  0.00    +0.010 A 
+ATOM      9  CD2 TRP A   1       5.264  -3.349  26.951  0.00  0.00    +0.003 A 
+ATOM     10  HE1 TRP A   1       3.100  -5.711  27.486  0.00  0.00    +0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TRP A   1       4.953  -2.660  24.477  0.00  0.00    +0.067 C 
+BRANCH  11  12
+ATOM     12  CA  TRP A   1       3.822  -1.683  24.096  0.00  0.00    +0.165 C 
+BRANCH  12  13
+ATOM     13  N   TRP A   1       3.392  -1.893  22.712  0.00  0.00    -0.318 NA
+ATOM     14  H1  TRP A   1       4.226  -1.799  22.086  0.00  0.00    +0.119 HD
+ATOM     15  H2  TRP A   1       2.715  -1.144  22.438  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   TRP A   1       4.251  -0.254  24.280  0.00  0.00    +0.322 C 
+ATOM     17  O   TRP A   1       3.761   0.658  23.561  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  OXT TRP A   1       5.219   0.059  25.231  0.00  0.00    -0.479 OA
+ATOM     19  HXT TRP A   1       5.116   0.871  25.829  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5
+ENDMDL

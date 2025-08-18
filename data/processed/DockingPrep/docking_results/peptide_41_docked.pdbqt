@@ -1,0 +1,360 @@
+MODEL 1
+REMARK VINA RESULT:      -4.3      0.000      0.000
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      10.094  -4.883  42.492  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1       9.507  -3.565  42.237  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1       8.843  -3.340  43.014  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      10.258  -2.838  42.245  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1       9.498  -5.482  43.739  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1       9.826  -6.645  44.099  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1       8.575  -4.759  44.489  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1       8.877  -4.016  45.109  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      11.632  -4.781  42.626  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1      12.234  -3.512  41.974  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1      12.642  -3.813  40.526  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1      13.443  -2.971  42.752  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.2     19.864     21.353
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      -8.905   0.712  48.120  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      -9.359   1.623  47.066  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      -9.999   2.333  47.491  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      -8.540   2.136  46.667  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1      -7.410   0.810  48.277  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1      -6.658   0.003  47.666  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1      -6.856   1.780  49.108  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1      -6.643   2.706  48.755  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      -9.319  -0.744  47.802  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1     -10.654  -0.860  47.027  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1     -11.827  -0.904  48.016  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1     -10.698  -2.095  46.115  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.1     35.099     35.930
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      19.289   4.624   9.035  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      18.778   3.668  10.021  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      19.027   4.010  10.978  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      17.734   3.628   9.963  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1      20.732   4.322   8.724  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1      21.465   5.208   8.207  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1      21.256   3.060   8.993  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1      21.666   2.850   9.896  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      19.143   6.075   9.550  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1      17.765   6.375  10.191  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1      16.702   6.522   9.094  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1      17.787   7.638  11.065  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -4.1     35.730     36.560
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      20.846   4.481   8.637  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      21.155   3.095   8.998  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      21.314   3.046  10.032  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      20.336   2.482   8.777  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1      22.107   5.304   8.622  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1      22.519   5.807   7.542  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1      22.828   5.499   9.797  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1      22.781   6.381  10.295  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      19.819   5.088   9.622  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1      18.390   5.211   9.039  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1      17.553   6.160   9.908  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1      17.683   3.852   8.926  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.0     14.578     15.490
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1       6.500  -3.096  28.200  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1       7.017  -3.901  27.091  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1       7.194  -3.271  26.274  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1       7.933  -4.328  27.362  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1       7.640  -2.578  29.037  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1       8.818  -2.615  28.589  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1       7.399  -2.073  30.312  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1       7.687  -1.134  30.561  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1       5.526  -3.924  29.071  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1       4.523  -4.774  28.252  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1       3.422  -3.872  27.679  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1       3.891  -5.899  29.085  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.0     20.017     21.112
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1       7.006   7.571  25.908  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1       5.956   7.817  26.899  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1       5.965   8.833  27.151  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1       5.020   7.605  26.481  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1       6.581   8.100  24.564  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1       5.376   8.015  24.205  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1       7.520   8.673  23.709  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1       7.266   8.945  22.766  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1       7.327   6.060  25.814  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1       8.657   5.660  26.500  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1       9.723   5.364  25.437  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1       8.496   4.444  27.426  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -3.9     19.610     20.726
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1       9.353   5.835  26.095  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1       9.752   5.309  24.787  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      10.066   6.106  24.187  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      10.566   4.661  24.900  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1       7.858   5.747  26.253  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1       7.361   5.362  27.346  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1       7.022   6.077  25.190  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1       7.363   6.630  24.413  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1       9.827   7.297  26.265  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1      10.186   7.997  24.931  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1      11.417   8.891  25.126  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1       9.022   8.832  24.376  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -3.8      2.315      2.880
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      12.079  -2.916  41.830  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      13.004  -2.557  42.908  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      13.305  -3.433  43.396  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      13.861  -2.113  42.503  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1      10.959  -3.764  42.374  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1      11.218  -4.755  43.109  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1       9.637  -3.466  42.054  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1       9.377  -3.201  41.111  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      12.820  -3.665  40.698  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1      14.359  -3.693  40.869  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1      15.010  -2.711  39.886  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1      14.946  -5.098  40.665  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -3.8     18.683     20.126
+REMARK  Name = peptide_41_GDRDLKNKAA
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_7
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD1_5
+REMARK    6  A    between atoms: CG_4  and  CD2_6
+REMARK    7  A    between atoms: C_7  and  OXT_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      -8.584   0.644  47.657  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      -9.097   2.009  47.805  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      -9.502   2.113  48.764  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      -8.308   2.692  47.721  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1      -9.653  -0.351  48.028  0.00  0.00    +0.322 C 
+ATOM      6  O   LEU A   1     -10.569  -0.022  48.829  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT LEU A   1      -9.625  -1.638  47.497  0.00  0.00    -0.479 OA
+ATOM      8  HXT LEU A   1      -8.790  -1.996  47.048  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      -7.327   0.434  48.533  0.00  0.00    +0.033 C 
+BRANCH   9  10
+ATOM     10  CG  LEU A   1      -6.117  -0.148  47.761  0.00  0.00    -0.015 C 
+ATOM     11  CD1 LEU A   1      -6.149  -1.681  47.823  0.00  0.00    +0.007 C 
+ATOM     12  CD2 LEU A   1      -4.774   0.365  48.302  0.00  0.00    +0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL

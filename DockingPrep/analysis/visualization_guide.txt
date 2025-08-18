@@ -1,0 +1,97 @@
+
+## MOLECULAR VISUALIZATION GUIDE
+
+### 1. PyMOL Visualization Commands:
+
+```bash
+# Load receptor and docked poses
+pymol DockingPrep\receptor\1VPF_receptor.pdbqt
+
+# Load all docked structures
+
+# Example for top binder:
+# pymol DockingPrep\docking_results\peptide_1_docked.pdbqt
+
+# PyMOL commands for analysis:
+hide everything
+show cartoon, receptor
+show sticks, ligand
+color blue, receptor
+color red, ligand
+center ligand
+zoom ligand, 10
+```
+
+### 2. ChimeraX Visualization:
+
+```bash
+# Open ChimeraX and run:
+open DockingPrep\receptor\1VPF_receptor.pdbqt
+
+# open DockingPrep\docking_results\peptide_1_docked.pdbqt
+
+style receptor cartoon
+style ligand stick
+color receptor blue
+color ligand red
+view
+```
+
+### 3. VMD Visualization:
+
+```tcl
+# VMD TCL commands:
+mol new DockingPrep\receptor\1VPF_receptor.pdbqt
+
+# mol new DockingPrep\docking_results\peptide_1_docked.pdbqt
+
+mol modstyle 0 0 NewCartoon
+mol modcolor 0 0 Blue
+mol modstyle 0 1 Licorice
+mol modcolor 0 1 Red
+```
+
+### 4. Interaction Analysis Tools:
+
+- **PLIP (Protein-Ligand Interaction Profiler)**:
+  - Web: https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index
+  - Command line: plip -f docked_complex.pdb
+
+- **ProLIF (Protein-Ligand Interaction Fingerprints)**:
+  ```python
+  import prolif as plf
+  # Analyze interactions between receptor and ligands
+  ```
+
+- **OpenEye OMEGA** (for conformational analysis):
+  ```bash
+  omega2 -in ligand.mol2 -out conformers.oeb -maxconfs 100
+  ```
+
+### 5. Binding Site Analysis:
+
+- **CASTp** (Computed Atlas of Surface Topography of proteins):
+  - Web: http://sts.bioe.uic.edu/castp/
+  
+- **fpocket** (pocket detection):
+  ```bash
+  fpocket -f 1VPF_receptor.pdbqt
+  ```
+
+### 6. Quality Assessment:
+
+- **Ramachandran plots** for receptor quality
+- **RMSD analysis** of docked poses
+- **Binding site volume** calculations
+- **Solvent accessible surface area** analysis
+
+### 7. Export for Publication:
+
+```bash
+# High-quality figure generation in PyMOL:
+ray 1200, 1200
+png figure_1.png, dpi=300
+
+# ChimeraX publication figures:
+save figure_1.png width 1200 height 1200 supersample 3
+```

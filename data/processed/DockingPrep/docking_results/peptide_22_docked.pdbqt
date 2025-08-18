@@ -1,0 +1,369 @@
+MODEL 1
+REMARK VINA RESULT:      -4.8      0.000      0.000
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1       9.683  -5.821  42.874  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1       8.788  -6.208  41.781  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1       9.343  -6.729  41.063  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1       8.410  -5.349  41.319  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1       8.967  -5.988  44.186  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1       8.626  -7.136  44.577  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1       8.694  -4.876  44.978  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1       7.843  -4.826  45.526  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      10.184  -4.373  42.691  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      11.618  -4.334  42.226  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      12.025  -3.390  41.267  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      13.347  -3.372  40.813  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      14.270  -4.299  41.307  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      13.871  -5.248  42.252  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      12.550  -5.269  42.708  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.8     18.690     20.400
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1      -9.483  -0.283  48.658  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1     -10.612  -1.144  49.020  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1     -10.634  -1.959  48.365  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1     -11.507  -0.618  48.891  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1     -10.003   0.993  48.056  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1     -11.008   1.564  48.559  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1      -9.366   1.554  46.953  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1      -9.197   2.552  46.903  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      -8.525  -1.009  47.690  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      -7.095  -0.940  48.165  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      -6.323   0.208  47.918  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      -4.988   0.260  48.331  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      -4.414  -0.833  48.986  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      -5.172  -1.982  49.226  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      -6.507  -2.039  48.815  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.8     35.009     35.871
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1      17.342   6.295  10.128  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1      16.821   5.894  11.437  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1      17.041   4.883  11.589  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1      15.779   5.988  11.443  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1      16.234   6.914   9.321  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1      15.035   6.598   9.547  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1      16.529   7.849   8.334  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1      17.311   7.710   7.703  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      17.966   5.092   9.391  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      19.464   5.224   9.279  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      20.271   4.075   9.204  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      21.662   4.196   9.130  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      22.257   5.461   9.137  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      21.463   6.607   9.222  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      20.072   6.491   9.295  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -4.7     18.997     20.715
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1     -10.006  -1.018  47.948  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1     -10.925  -1.129  49.083  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1     -11.154  -2.139  49.230  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1     -11.820  -0.637  48.856  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1     -10.658  -1.594  46.721  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1     -10.653  -2.840  46.530  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1     -11.282  -0.754  45.803  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1     -11.022  -0.772  44.824  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      -8.667  -1.723  48.252  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      -7.502  -0.770  48.161  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      -6.193  -1.264  48.025  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      -5.110  -0.381  47.970  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      -5.323   0.997  48.058  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      -6.620   1.496  48.205  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      -7.706   0.617  48.259  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.7     34.880     35.912
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1      17.809   6.243   9.066  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1      17.173   7.051   8.023  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1      17.092   8.036   8.366  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1      16.202   6.701   7.853  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1      16.797   5.915  10.128  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1      15.584   5.770   9.820  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1      17.200   5.754  11.450  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1      16.622   5.250  12.112  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      19.029   6.976   9.663  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      20.298   6.178   9.491  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      21.546   6.823   9.513  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      22.721   6.089   9.323  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      22.658   4.710   9.104  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      21.420   4.063   9.070  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      20.243   4.793   9.260  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.6     33.023     34.538
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1      17.676   6.023   9.509  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1      17.160   6.552   8.245  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1      17.827   7.274   7.887  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1      16.245   7.031   8.414  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1      17.982   4.560   9.348  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1      17.286   3.851   8.572  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1      19.044   3.989  10.043  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1      18.968   3.786  11.033  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      16.673   6.262  10.657  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      17.243   7.174  11.714  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      16.930   6.967  13.069  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      17.434   7.831  14.047  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      18.244   8.909  13.680  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      18.551   9.127  12.335  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      18.050   8.266  11.354  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.6      2.812      4.010
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1       7.106  -6.407  45.218  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1       7.814  -6.582  46.488  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1       8.187  -5.654  46.793  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1       8.634  -7.216  46.347  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1       5.674  -6.837  45.383  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1       4.854  -6.677  44.439  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1       5.256  -7.428  46.572  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1       5.879  -7.488  47.369  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1       7.800  -7.196  44.087  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1       9.050  -6.501  43.610  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      10.250  -7.221  43.474  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      11.418  -6.572  43.060  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      11.397  -5.201  42.787  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      10.211  -4.476  42.930  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1       9.042  -5.122  43.342  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.6     18.986     20.690
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1      -9.885  -1.137  47.217  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1     -10.797  -0.754  46.136  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1     -11.518  -1.503  46.027  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1     -10.268  -0.698  45.235  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1     -10.598  -2.060  48.165  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1     -10.475  -3.308  48.043  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1     -11.381  -1.537  49.191  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1     -11.752  -0.596  49.132  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      -9.344   0.109  47.949  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      -7.840   0.086  48.052  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      -7.115   1.289  48.093  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      -5.718   1.268  48.158  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      -5.036   0.048  48.177  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      -5.749  -1.153  48.127  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      -7.145  -1.136  48.061  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.6      1.723      2.416
+REMARK  Name = peptide_22_GEAIHKTNLE
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_10
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_10  and  OXT_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  PHE A   1      10.991  -4.601  42.825  0.00  0.00    +0.165 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   PHE A   1      11.321  -6.028  42.827  0.00  0.00    -0.318 NA
+ATOM      3  H1  PHE A   1      10.516  -6.557  43.235  0.00  0.00    +0.119 HD
+ATOM      4  H2  PHE A   1      12.148  -6.195  43.446  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   PHE A   1       9.532  -4.428  43.145  0.00  0.00    +0.322 C 
+ATOM      6  O   PHE A   1       9.046  -4.958  44.180  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT PHE A   1       8.719  -3.669  42.309  0.00  0.00    -0.479 OA
+ATOM      8  HXT PHE A   1       9.084  -2.853  41.831  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  PHE A   1      11.346  -3.955  41.469  0.00  0.00    +0.065 C 
+BRANCH   9  10
+ATOM     10  CG  PHE A   1      12.767  -3.452  41.447  0.00  0.00    -0.045 A 
+ATOM     11  CD1 PHE A   1      13.404  -3.080  42.643  0.00  0.00    +0.003 A 
+ATOM     12  CE1 PHE A   1      14.712  -2.585  42.620  0.00  0.00    +0.000 A 
+ATOM     13  CZ  PHE A   1      15.388  -2.450  41.405  0.00  0.00    +0.000 A 
+ATOM     14  CE2 PHE A   1      14.758  -2.807  40.210  0.00  0.00    +0.000 A 
+ATOM     15  CD2 PHE A   1      13.452  -3.303  40.228  0.00  0.00    +0.003 A 
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL

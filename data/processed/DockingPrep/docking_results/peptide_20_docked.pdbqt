@@ -1,0 +1,414 @@
+MODEL 1
+REMARK VINA RESULT:      -5.0      0.000      0.000
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1     -10.410  -2.297  47.469  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      -9.529  -1.100  47.715  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1     -10.058   0.200  47.646  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      -9.232   1.309  47.848  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      -7.870   1.133  48.113  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      -7.335  -0.160  48.173  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      -8.159  -1.271  47.972  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      -7.058   2.249  48.312  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      -7.380   3.183  48.089  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1     -11.605  -1.938  46.568  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1     -12.761  -2.782  46.882  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1     -12.580  -3.760  46.557  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1     -13.590  -2.425  46.354  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1     -11.228  -2.066  45.116  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1     -10.617  -3.088  44.703  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1     -11.553  -1.047  44.226  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1     -10.951  -0.833  43.439  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.9     46.227     46.784
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1      17.243   7.511   9.666  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      18.199   6.360   9.489  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1      19.581   6.592   9.387  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      20.463   5.524   9.196  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      19.975   4.217   9.096  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      18.597   3.981   9.186  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      17.713   5.047   9.378  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      20.866   3.162   8.904  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      20.541   2.209   8.792  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1      16.084   7.137  10.607  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1      14.961   8.062  10.438  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1      15.308   9.048  10.490  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1      14.290   7.923  11.229  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1      16.552   7.120  12.038  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1      17.051   8.153  12.558  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1      16.435   5.954  12.790  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1      15.538   5.498  12.906  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.9      1.504      1.660
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1     -11.546  -1.644  47.164  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1     -10.422  -0.704  47.513  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1     -10.670   0.667  47.693  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      -9.620   1.541  47.990  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      -8.312   1.057  48.103  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      -8.058  -0.308  47.915  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      -9.106  -1.184  47.618  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      -7.275   1.939  48.399  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      -6.519   1.677  49.020  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1     -11.386  -2.204  45.739  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1     -11.557  -1.142  44.744  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1     -12.221  -0.421  45.111  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1     -11.987  -1.555  43.883  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1     -12.363  -3.324  45.500  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1     -12.954  -3.873  46.468  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1     -12.614  -3.757  44.201  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1     -13.453  -3.471  43.710  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -4.9     47.745     48.272
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1      18.425   4.884   9.495  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      19.905   5.107   9.325  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1      20.784   4.015   9.233  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      22.160   4.226   9.102  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      22.672   5.527   9.071  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      21.802   6.620   9.172  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      20.425   6.412   9.302  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      24.046   5.722   8.941  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      24.705   4.973   9.116  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1      17.737   6.123  10.095  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1      17.135   5.803  11.392  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1      17.875   5.455  12.046  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1      16.444   5.028  11.260  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1      16.702   6.664   9.145  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1      15.481   6.654   9.458  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1      17.096   7.176   7.912  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1      16.834   8.114   7.631  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.9      2.280      2.973
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1     -10.267   0.016  48.068  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      -8.761   0.046  48.037  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1      -8.025  -1.151  47.998  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      -6.628  -1.119  47.998  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      -5.951   0.104  48.044  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      -6.679   1.300  48.092  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      -8.077   1.272  48.093  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      -4.557   0.120  48.044  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      -4.038   0.989  48.083  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1     -10.818  -1.213  47.324  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1     -11.269  -0.845  45.979  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1     -10.846  -1.497  45.277  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1     -10.923   0.118  45.761  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1     -11.937  -1.846  48.108  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1     -13.126  -1.456  47.952  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1     -11.657  -2.865  49.013  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1     -11.021  -3.615  48.770  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.9     45.876     46.457
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1      16.770   6.951  10.617  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      17.859   6.126   9.982  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1      17.628   4.783   9.641  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      18.649   4.013   9.077  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      19.912   4.572   8.855  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      20.151   5.908   9.201  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      19.131   6.681   9.765  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      20.920   3.792   8.292  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      21.775   4.207   7.939  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1      17.018   7.142  12.124  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1      16.488   6.006  12.883  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1      16.838   5.112  12.468  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1      15.445   6.004  12.799  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1      16.410   8.434  12.600  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1      16.433   9.458  11.866  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1      15.820   8.498  13.859  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1      16.202   9.098  14.581  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.8     20.748     22.213
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1      10.128  -4.406  42.719  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      11.554  -4.366  42.233  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1      11.950  -3.427  41.266  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      13.267  -3.410  40.797  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      14.198  -4.335  41.281  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      13.806  -5.280  42.238  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      12.490  -5.298  42.709  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      15.507  -4.307  40.804  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      16.036  -5.159  40.662  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1       9.639  -5.854  42.900  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1       8.766  -6.247  41.790  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1       8.208  -7.089  42.064  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1       9.362  -6.518  40.974  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1       8.930  -6.011  44.219  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1       8.564  -7.150  44.615  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1       8.675  -4.890  45.004  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1       8.979  -4.853  45.970  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.8     46.862     47.391
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1      17.459   7.490  10.036  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1      18.383   6.354   9.682  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1      17.905   5.034   9.638  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1      18.772   3.980   9.336  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1      20.124   4.231   9.084  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1      20.609   5.544   9.136  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1      19.744   6.601   9.438  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1      20.977   3.170   8.785  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1      20.843   2.601   7.957  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1      16.425   7.739   8.924  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1      16.800   8.905   8.121  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1      16.018   9.149   7.469  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1      17.630   8.656   7.534  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1      15.050   7.914   9.512  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1      14.909   8.198  10.732  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1      13.927   7.760   8.703  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1      12.997   7.932   9.067  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.8     28.862     29.531
+REMARK  Name = peptide_20_HTHAKNHTAE
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_11
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CZ_7  and  OH_8
+REMARK    6  A    between atoms: C_11  and  OXT_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  TYR A   1       7.234   8.881  25.356  0.00  0.00    +0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  TYR A   1       7.963   7.595  25.647  0.00  0.00    -0.045 A 
+ATOM      3  CD1 TYR A   1       9.314   7.446  25.289  0.00  0.00    +0.007 A 
+ATOM      4  CE1 TYR A   1       9.979   6.242  25.536  0.00  0.00    +0.045 A 
+ATOM      5  CZ  TYR A   1       9.303   5.173  26.133  0.00  0.00    +0.117 A 
+ATOM      6  CE2 TYR A   1       7.953   5.313  26.482  0.00  0.00    +0.045 A 
+ATOM      7  CD2 TYR A   1       7.285   6.516  26.237  0.00  0.00    +0.007 A 
+BRANCH   5   8
+ATOM      8  OH  TYR A   1       9.979   3.978  26.372  0.00  0.00    -0.507 OA
+ATOM      9  HH  TYR A   1       9.654   3.100  25.985  0.00  0.00    +0.292 HD
+ENDBRANCH   5   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA  TYR A   1       7.082   9.110  23.842  0.00  0.00    +0.165 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1       7.241  10.529  23.514  0.00  0.00    -0.318 NA
+ATOM     12  H1  TYR A   1       6.499  10.818  22.836  0.00  0.00    +0.119 HD
+ATOM     13  H2  TYR A   1       8.166  10.663  23.043  0.00  0.00    +0.119 HD
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   TYR A   1       5.751   8.596  23.361  0.00  0.00    +0.322 C 
+ATOM     15  O   TYR A   1       4.818   9.398  23.091  0.00  0.00    -0.249 OA
+BRANCH  14  16
+ATOM     16  OXT TYR A   1       5.549   7.226  23.218  0.00  0.00    -0.479 OA
+ATOM     17  HXT TYR A   1       6.188   6.560  23.637  0.00  0.00    +0.295 HD
+ENDBRANCH  14  16
+ENDBRANCH  10  14
+ENDBRANCH   1  10
+TORSDOF 6
+ENDMDL

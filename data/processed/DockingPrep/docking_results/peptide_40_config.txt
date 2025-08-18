@@ -1,0 +1,17 @@
+# AutoDock Vina configuration file
+receptor = f:\GitHub\accelerated_drug_discovery\notebooks\..\data\processed\DockingPrep\receptor\1VPF_receptor.pdbqt
+ligand = ..\data\processed\DockingPrep\ligands\peptide_40.pdbqt
+out = ..\data\processed\DockingPrep\docking_results\peptide_40_docked.pdbqt
+
+center_x = 5.950
+center_y = 2.621
+center_z = 28.658
+
+size_x = 44.1
+size_y = 20.0
+size_z = 42.2
+
+exhaustiveness = 8
+num_modes = 9
+energy_range = 3.0
+cpu = 4
